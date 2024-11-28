@@ -1,0 +1,21 @@
+{
+  "name": "bitbucket-pr-updater",
+  "version": "1.0.0",
+  "description": "Automates Bitbucket pull requests for package.json updates.",
+  "main": "src/index.js",
+  "bin": {
+    "bitbucket-pr-updater": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {},
+  "keywords": ["bitbucket", "pull-request", "automation"],
+  "author": "Your Name",
+  "license": "MIT"
+}
